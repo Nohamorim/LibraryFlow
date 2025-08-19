@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9kvvEjGEx/U=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\noemy\\OneDrive\\Documentos\\LibraryFlow\\src\\LibraryFlow.Domain\\LibraryFlow.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\noemy\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.8\\microsoft.netcore.app.ref.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
