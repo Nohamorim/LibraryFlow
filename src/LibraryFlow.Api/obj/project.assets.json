@@ -33,6 +33,42 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "LibraryFlow.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "LibraryFlow.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LibraryFlow.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryFlow.Application.dll": {}
+        }
+      },
+      "LibraryFlow.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/LibraryFlow.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryFlow.Domain.dll": {}
+        }
+      },
+      "LibraryFlow.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "LibraryFlow.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LibraryFlow.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryFlow.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -67,10 +103,27 @@
         "microsoft.openapi.1.6.17.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "LibraryFlow.Application/1.0.0": {
+      "type": "project",
+      "path": "../LibraryFlow.Application/LibraryFlow.Application.csproj",
+      "msbuildProject": "../LibraryFlow.Application/LibraryFlow.Application.csproj"
+    },
+    "LibraryFlow.Domain/1.0.0": {
+      "type": "project",
+      "path": "../LibraryFlow.Domain/LibraryFlow.Domain.csproj",
+      "msbuildProject": "../LibraryFlow.Domain/LibraryFlow.Domain.csproj"
+    },
+    "LibraryFlow.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../LibraryFlow.Infrastructure/LibraryFlow.Infrastructure.csproj",
+      "msbuildProject": "../LibraryFlow.Infrastructure/LibraryFlow.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "LibraryFlow.Application >= 1.0.0",
+      "LibraryFlow.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.8"
     ]
   },
@@ -98,7 +151,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\noemy\\OneDrive\\Documentos\\LibraryFlow\\src\\LibraryFlow.Application\\LibraryFlow.Application.csproj": {
+              "projectPath": "C:\\Users\\noemy\\OneDrive\\Documentos\\LibraryFlow\\src\\LibraryFlow.Application\\LibraryFlow.Application.csproj"
+            },
+            "C:\\Users\\noemy\\OneDrive\\Documentos\\LibraryFlow\\src\\LibraryFlow.Infrastructure\\LibraryFlow.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\noemy\\OneDrive\\Documentos\\LibraryFlow\\src\\LibraryFlow.Infrastructure\\LibraryFlow.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

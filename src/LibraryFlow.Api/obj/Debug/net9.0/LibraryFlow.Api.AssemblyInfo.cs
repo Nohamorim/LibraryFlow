@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("LibraryFlow.Domain")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("LibraryFlow.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6b989f10dc8d166a500e72ae196e012c0d1f642")]
-[assembly: System.Reflection.AssemblyProductAttribute("LibraryFlow.Domain")]
-[assembly: System.Reflection.AssemblyTitleAttribute("LibraryFlow.Domain")]
+[assembly: System.Reflection.AssemblyProductAttribute("LibraryFlow.Api")]
+[assembly: System.Reflection.AssemblyTitleAttribute("LibraryFlow.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
