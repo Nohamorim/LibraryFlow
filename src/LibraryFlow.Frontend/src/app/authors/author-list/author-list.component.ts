@@ -1,11 +1,24 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Author } from '../../models/author.model'; // Verifique o caminho
+import { AuthorService } from '../../services/author.service'; // Verifique o caminho
 
 @Component({
   selector: 'app-author-list',
-  imports: [],
   templateUrl: './author-list.component.html',
-  styleUrl: './author-list.component.scss'
+  styleUrls: ['./author-list.component.scss']
 })
-export class AuthorListComponent {
+export class AuthorListComponent implements OnInit {
+  authors: Author[] = [];
 
+  constructor(private authorService: AuthorService) { }
+
+  ngOnInit(): void {
+    this.loadAuthors();
+  }
+
+  loadAuthors(): void {
+    this.authorService.getAll().subscribe(authors => {
+      this.authors = authors;
+    });
+  }
 }
