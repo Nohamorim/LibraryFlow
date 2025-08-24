@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibraryFlow.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a664ce1aa83d2373d6ce04e23d028a757cc82d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6989c97db37e744fc82cf7c08435afc463cdb0c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibraryFlow.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibraryFlow.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
