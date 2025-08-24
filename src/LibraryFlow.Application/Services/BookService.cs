@@ -38,6 +38,37 @@ namespace LibraryFlow.Application.Services
             return bookDTOs;
         }
 
-        // Implementar outros métodos (GetById, Add, Update, Delete)
+        public async Task<BookDTO> GetById(int id)
+        {
+            var book = await _bookRepository.GetById(id);
+            if (book == null) return null;
+
+            return new BookDTO
+            {
+                Id = book.Id,
+                Title = book.Title,
+                ISBN = book.ISBN,
+                AuthorId = book.AuthorId,
+                AuthorName = book.Author.Name,
+                PublicationYear = book.PublicationYear,
+                Price = book.Price,
+                StockQuantity = book.StockQuantity
+            };
+        }
+
+        public async Task Add(Book book)
+        {
+            await _bookRepository.Add(book);
+        }
+
+        public async Task Update(Book book)
+        {
+            await _bookRepository.Update(book);
+        }
+
+        public async Task Delete(int id)
+        {
+            await _bookRepository.Delete(id);
+        }
     }
 }
