@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { User } from '../../models/user.model'; // Verifique o caminho
-import { UserService } from '../../services/user.service'; // Verifique o caminho
+import { UsersModule } from '../../users/users.module';
+import { UserService } from '../../services/user.service';
 
 @Component({
   selector: 'app-user-list',
@@ -8,7 +8,7 @@ import { UserService } from '../../services/user.service'; // Verifique o caminh
   styleUrls: ['./user-list.component.scss']
 })
 export class UserListComponent implements OnInit {
-  users: User[] = [];
+  users: UsersModule[] = [];
 
   constructor(private userService: UserService) { }
 
@@ -17,7 +17,7 @@ export class UserListComponent implements OnInit {
   }
 
   loadUsers(): void {
-    this.userService.getAll().subscribe(users => {
+    this.userService.getAll().subscribe((users: UsersModule[]) => {
       this.users = users;
     });
   }
