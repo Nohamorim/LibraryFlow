@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Book } from 'src/app/models/book.model';
-import { BookService } from 'src/app/services/book.service';
+import { BooksModule } from '../../books/books.module';
+import { BookService } from '../../services/book.service';
 
 @Component({
   selector: 'app-book-list',
@@ -8,7 +8,7 @@ import { BookService } from 'src/app/services/book.service';
   styleUrls: ['./book-list.component.scss']
 })
 export class BookListComponent implements OnInit {
-  books: Book[] = [];
+  books: BooksModule[] = [];
 
   constructor(private bookService: BookService) { }
 
