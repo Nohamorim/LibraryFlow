@@ -26,19 +26,19 @@ namespace LibraryFlow.Application.Services
                 {
                     Id = book.Id,
                     Title = book.Title,
-                    ISBN = book.ISBN,
+                    //ISBN = book.ISBN,
                     AuthorId = book.AuthorId,
                     AuthorName = book.Author.Name,
-                    PublicationYear = book.PublicationYear,
-                    Price = book.Price,
-                    StockQuantity = book.StockQuantity
+                    //PublicationYear = book.PublicationYear,
+                    //Price = book.Price,
+                    //StockQuantity = book.StockQuantity
                 });
             }
 
             return bookDTOs;
         }
 
-        public async Task<BookDTO> GetById(int id)
+        public async Task<BookDTO?> GetById(int id)
         {
             var book = await _bookRepository.GetById(id);
             if (book == null) return null;
@@ -47,12 +47,12 @@ namespace LibraryFlow.Application.Services
             {
                 Id = book.Id,
                 Title = book.Title,
-                ISBN = book.ISBN,
+                //ISBN = book.ISBN,
                 AuthorId = book.AuthorId,
                 AuthorName = book.Author.Name,
-                PublicationYear = book.PublicationYear,
-                Price = book.Price,
-                StockQuantity = book.StockQuantity
+                //PublicationYear = book.PublicationYear,
+                //Price = book.Price,
+                //StockQuantity = book.StockQuantity
             };
         }
 
