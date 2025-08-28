@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xOMnYlwz6yI=",
+  "dgSpecHash": "0bCJgSXHXrY=",
   "success": true,
   "projectFilePath": "C:\\Users\\noemy\\OneDrive\\Documentos\\LibraryFlow\\src\\LibraryFlow.Api\\LibraryFlow.Api.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\noemy\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.8\\microsoft.entityframeworkcore.abstractions.9.0.8.nupkg.sha512",
     "C:\\Users\\noemy\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.8\\microsoft.entityframeworkcore.analyzers.9.0.8.nupkg.sha512",
     "C:\\Users\\noemy\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.1\\microsoft.entityframeworkcore.relational.9.0.1.nupkg.sha512",
+    "C:\\Users\\noemy\\.nuget\\packages\\microsoft.extensions.apidescription.server\\9.0.0\\microsoft.extensions.apidescription.server.9.0.0.nupkg.sha512",
     "C:\\Users\\noemy\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.8\\microsoft.extensions.caching.abstractions.9.0.8.nupkg.sha512",
     "C:\\Users\\noemy\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.8\\microsoft.extensions.caching.memory.9.0.8.nupkg.sha512",
     "C:\\Users\\noemy\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.1\\microsoft.extensions.configuration.abstractions.9.0.1.nupkg.sha512",
@@ -18,11 +19,15 @@
     "C:\\Users\\noemy\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.8\\microsoft.extensions.logging.abstractions.9.0.8.nupkg.sha512",
     "C:\\Users\\noemy\\.nuget\\packages\\microsoft.extensions.options\\9.0.8\\microsoft.extensions.options.9.0.8.nupkg.sha512",
     "C:\\Users\\noemy\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.8\\microsoft.extensions.primitives.9.0.8.nupkg.sha512",
-    "C:\\Users\\noemy\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\noemy\\.nuget\\packages\\microsoft.openapi\\1.6.23\\microsoft.openapi.1.6.23.nupkg.sha512",
     "C:\\Users\\noemy\\.nuget\\packages\\npgsql\\9.0.3\\npgsql.9.0.3.nupkg.sha512",
     "C:\\Users\\noemy\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\9.0.4\\npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512",
-    "C:\\Users\\noemy\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.8\\microsoft.netcore.app.ref.9.0.8.nupkg.sha512",
-    "C:\\Users\\noemy\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.8\\microsoft.netcore.app.host.win-x64.9.0.8.nupkg.sha512"
+    "C:\\Users\\noemy\\.nuget\\packages\\swashbuckle.aspnetcore\\9.0.3\\swashbuckle.aspnetcore.9.0.3.nupkg.sha512",
+    "C:\\Users\\noemy\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\9.0.3\\swashbuckle.aspnetcore.swagger.9.0.3.nupkg.sha512",
+    "C:\\Users\\noemy\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\9.0.3\\swashbuckle.aspnetcore.swaggergen.9.0.3.nupkg.sha512",
+    "C:\\Users\\noemy\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\9.0.3\\swashbuckle.aspnetcore.swaggerui.9.0.3.nupkg.sha512",
+    "C:\\Users\\noemy\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.8\\microsoft.netcore.app.host.win-x64.9.0.8.nupkg.sha512",
+    "C:\\Users\\noemy\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.8\\microsoft.netcore.app.ref.9.0.8.nupkg.sha512"
   ],
   "logs": []
 }

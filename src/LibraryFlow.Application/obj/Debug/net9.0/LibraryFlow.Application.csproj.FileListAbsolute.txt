@@ -1,0 +1,16 @@
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Application\obj\Debug\net9.0\LibraryFlow.Application.csproj.AssemblyReference.cache
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Application\obj\Debug\net9.0\LibraryFlow.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Application\obj\Debug\net9.0\LibraryFlow.Application.AssemblyInfoInputs.cache
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Application\obj\Debug\net9.0\LibraryFlow.Application.AssemblyInfo.cs
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Application\obj\Debug\net9.0\LibraryFlow.Application.csproj.CoreCompileInputs.cache
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Application\obj\Debug\net9.0\LibraryFlow.Application.sourcelink.json
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Application\bin\Debug\net9.0\LibraryFlow.Application.deps.json
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Application\bin\Debug\net9.0\LibraryFlow.Application.dll
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Application\bin\Debug\net9.0\LibraryFlow.Application.pdb
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Application\bin\Debug\net9.0\LibraryFlow.Domain.dll
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Application\bin\Debug\net9.0\LibraryFlow.Domain.pdb
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Application\obj\Debug\net9.0\LibraryF.924C8F3A.Up2Date
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Application\obj\Debug\net9.0\LibraryFlow.Application.dll
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Application\obj\Debug\net9.0\refint\LibraryFlow.Application.dll
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Application\obj\Debug\net9.0\LibraryFlow.Application.pdb
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Application\obj\Debug\net9.0\ref\LibraryFlow.Application.dll

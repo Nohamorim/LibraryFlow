@@ -1,0 +1,9 @@
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Api\obj\Debug\net9.0\LibraryFlow.Api.csproj.AssemblyReference.cache
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Api\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Api\obj\Debug\net9.0\LibraryFlow.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Api\obj\Debug\net9.0\LibraryFlow.Api.AssemblyInfoInputs.cache
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Api\obj\Debug\net9.0\LibraryFlow.Api.AssemblyInfo.cs
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Api\obj\Debug\net9.0\LibraryFlow.Api.csproj.CoreCompileInputs.cache
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Api\obj\Debug\net9.0\LibraryFlow.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Api\obj\Debug\net9.0\LibraryFlow.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Api\obj\Debug\net9.0\LibraryFlow.Api.sourcelink.json

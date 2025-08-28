@@ -1,0 +1,12 @@
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Domain\bin\Debug\net9.0\LibraryFlow.Domain.deps.json
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Domain\bin\Debug\net9.0\LibraryFlow.Domain.dll
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Domain\bin\Debug\net9.0\LibraryFlow.Domain.pdb
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Domain\obj\Debug\net9.0\LibraryFlow.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Domain\obj\Debug\net9.0\LibraryFlow.Domain.AssemblyInfoInputs.cache
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Domain\obj\Debug\net9.0\LibraryFlow.Domain.AssemblyInfo.cs
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Domain\obj\Debug\net9.0\LibraryFlow.Domain.csproj.CoreCompileInputs.cache
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Domain\obj\Debug\net9.0\LibraryFlow.Domain.sourcelink.json
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Domain\obj\Debug\net9.0\LibraryFlow.Domain.dll
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Domain\obj\Debug\net9.0\refint\LibraryFlow.Domain.dll
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Domain\obj\Debug\net9.0\LibraryFlow.Domain.pdb
+C:\Users\noemy\OneDrive\Documentos\LibraryFlow\src\LibraryFlow.Domain\obj\Debug\net9.0\ref\LibraryFlow.Domain.dll
