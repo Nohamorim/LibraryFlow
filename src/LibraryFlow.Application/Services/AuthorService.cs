@@ -1,7 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using LibraryFlow.Application.DTOs;
+using LibraryFlow.Domain.Entities;
 using LibraryFlow.Domain.Interfaces;
 
 namespace LibraryFlow.Application.Services
