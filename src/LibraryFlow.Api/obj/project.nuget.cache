@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0bCJgSXHXrY=",
+  "dgSpecHash": "7XT/IH0iweQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\noemy\\OneDrive\\Documentos\\LibraryFlow\\src\\LibraryFlow.Api\\LibraryFlow.Api.csproj",
   "expectedPackageFiles": [
@@ -26,8 +26,8 @@
     "C:\\Users\\noemy\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\9.0.3\\swashbuckle.aspnetcore.swagger.9.0.3.nupkg.sha512",
     "C:\\Users\\noemy\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\9.0.3\\swashbuckle.aspnetcore.swaggergen.9.0.3.nupkg.sha512",
     "C:\\Users\\noemy\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\9.0.3\\swashbuckle.aspnetcore.swaggerui.9.0.3.nupkg.sha512",
-    "C:\\Users\\noemy\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.8\\microsoft.netcore.app.host.win-x64.9.0.8.nupkg.sha512",
-    "C:\\Users\\noemy\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.8\\microsoft.netcore.app.ref.9.0.8.nupkg.sha512"
+    "C:\\Users\\noemy\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.8\\microsoft.netcore.app.ref.9.0.8.nupkg.sha512",
+    "C:\\Users\\noemy\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.8\\microsoft.netcore.app.host.win-x64.9.0.8.nupkg.sha512"
   ],
   "logs": []
 }

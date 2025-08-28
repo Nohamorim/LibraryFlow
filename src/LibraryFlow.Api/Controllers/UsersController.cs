@@ -1,5 +1,6 @@
 using LibraryFlow.Application.DTOs;
 using LibraryFlow.Application.Services;
+using LibraryFlow.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
@@ -35,20 +36,20 @@ namespace LibraryFlow.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Add(User user)
+        public async Task<IActionResult> Add([FromBody] UserDTO userDto)
         {
-            await _userService.Add(user);
-            return CreatedAtAction(nameof(GetById), new { id = user.Id }, user);
+            await _userService.Add(userDto);
+            return CreatedAtAction(nameof(GetById), new { id = userDto.Id }, userDto);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, User user)
+        public async Task<IActionResult> Update(int id, [FromBody] UserDTO userDto)
         {
-            if (id != user.Id)
+            if (id != userDto.Id)
             {
                 return BadRequest();
             }
-            await _userService.Update(user);
+            await _userService.Update(userDto);
             return NoContent();
         }
 

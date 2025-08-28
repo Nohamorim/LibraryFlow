@@ -14,6 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\LibraryFlow.Application\LibraryFlow.Application.csproj" />
     <ProjectReference Include="..\LibraryFlow.Infrastructure\LibraryFlow.Infrastructure.csproj" />
+    <ProjectReference Include="..\LibraryFlow.Domain\LibraryFlow.Domain.csproj" />
   </ItemGroup>
 
 </Project>

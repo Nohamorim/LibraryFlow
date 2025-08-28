@@ -1,5 +1,6 @@
 using LibraryFlow.Application.DTOs;
 using LibraryFlow.Application.Services;
+using LibraryFlow.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
