@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibraryFlow.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d72d83e50ad202bc84f8a8f91cbbe3b60f068b06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ad834268b17c3b275be7c9ea0fd7d363c3559b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibraryFlow.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibraryFlow.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
