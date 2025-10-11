@@ -1,4 +1,3 @@
-// book-list.component.ts
 import { Component, OnInit } from '@angular/core';
 import { Book } from '../../models/book.model';
 import { BookService } from '../../services/book.service';
@@ -12,6 +11,8 @@ export class BookListComponent implements OnInit {
   books: Book[] = [];
   filteredBooks: Book[] = [];
   searchTerm: string = '';
+  page: number = 1;
+  itemsPerPage: number = 5;
 
   constructor(private bookService: BookService) { }
 

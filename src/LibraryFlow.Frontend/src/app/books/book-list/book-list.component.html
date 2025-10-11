@@ -1,1 +1,43 @@
-<p>book-list works!</p>
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h2>Livros</h2>
+  <button class="btn btn-primary" routerLink="/books/new">Adicionar Livro</button>
+</div>
+
+<div class="row mb-3">
+  <div class="col-md-6">
+    <input type="text" class="form-control" placeholder="Buscar livros..."
+           [(ngModel)]="searchTerm" (input)="filterBooks()">
+  </div>
+</div>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Título</th>
+      <th>Autor</th>
+      <th>ISBN</th>
+      <th>Ano</th>
+      <th>Preço</th>
+      <th>Estoque</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let book of filteredBooks | paginate: { itemsPerPage: itemsPerPage, currentPage: page }">
+      <td>{{ book.title }}</td>
+      <td>{{ book.authorName }}</td>
+      <td>{{ book.isbn }}</td>
+      <td>{{ book.publicationYear }}</td>
+      <td>{{ book.price | currency:'BRL' }}</td>
+      <td>{{ book.stockQuantity }}</td>
+      <td>
+        <button class="btn btn-sm btn-info me-1" [routerLink]="['/books/edit', book.id]">Editar</button>
+        <button class="btn btn-sm btn-danger" (click)="deleteBook(book.id)">Excluir</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="d-flex justify-content-center">
+  <pagination-controls (pageChange)="page = $event"></pagination-controls>
+</div>
