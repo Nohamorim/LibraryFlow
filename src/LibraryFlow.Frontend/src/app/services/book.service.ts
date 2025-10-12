@@ -1,8 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { catchError, Observable, tap, throwError } from 'rxjs';
 import { Book } from '../models/book.model';
 import { environment } from '../../environments/environment';
+import { ToastrService } from 'ngx-toastr';
 
 @Injectable({
   providedIn: 'root'
@@ -10,18 +11,33 @@ import { environment } from '../../environments/environment';
 export class BookService {
   private apiUrl = `${environment.apiUrl}/books`;
 
-  constructor(private http: HttpClient) { }
+  constructor(
+    private http: HttpClient,
+    ) { }
 
   getAll(): Observable<Book[]> {
-    return this.http.get<Book[]>(this.apiUrl);
+    return this.http.get<Book[]>(this.apiUrl).pipe(
+      catchError(error => {
+        this.toastr.error('Erro ao carregar livros', 'Erro');
+        return throwError(error);
+      })
+    );
   }
 
   getById(id: number): Observable<Book> {
     return this.http.get<Book>(`${this.apiUrl}/${id}`);
   }
 
-  add(book: Book): Observable<Book> {
-    return this.http.post<Book>(this.apiUrl, book);
+  create(book: Book): Observable<Book> {
+  return this.http.post<Book>(this.apiUrl, book).pipe(
+    tap(() => {
+      this.toastr.success('Livro criado com sucesso', 'Sucesso');
+    }),
+      catchError(error => {
+        this.toastr.error('Erro ao criar livro', 'Erro');
+        return throwError(error);
+      })
+    );
   }
 
   update(id: number, book: Book): Observable<void> {
