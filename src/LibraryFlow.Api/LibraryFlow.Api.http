@@ -1,6 +1,4 @@
-@LibraryFlow.Api_HostAddress = http://localhost:5080
+@LibraryFlow_Api_HostAddress = http://localhost:5080
 
-GET {{LibraryFlow.Api_HostAddress}}/weatherforecast/
+GET {{LibraryFlow_Api_HostAddress}}/weatherforecast/
 Accept: application/json
-
-###
