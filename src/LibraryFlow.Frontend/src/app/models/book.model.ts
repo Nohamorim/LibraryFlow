@@ -1,7 +1,10 @@
-export class Book {
-    id!: number;
-    title!: string;
-    // Exemplo de como um relacionamento pode ser modelado
-    authorId!: number;
-    publicationDate!: Date;
+export interface Book {
+  id: number;
+  title: string;
+  isbn: string;
+  authorId: number;
+  authorName: string;
+  publicationYear: number;
+  price: number;
+  stockQuantity: number;
 }

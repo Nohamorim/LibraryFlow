@@ -13,6 +13,7 @@ export class BookService {
 
   constructor(
     private http: HttpClient,
+    private toastr: ToastrService
     ) { }
 
   getAll(): Observable<Book[]> {

@@ -22,16 +22,17 @@ namespace LibraryFlow.Application.Services
 
             foreach (var book in books)
             {
+                string nomeAutor = book.Author?.Name ?? "Autor desconhecido";
                 bookDTOs.Add(new BookDTO
                 {
                     Id = book.Id,
                     Title = book.Title,
-                    //ISBN = book.ISBN,
+                    ISBN = book.ISBN,
                     AuthorId = book.AuthorId,
-                    AuthorName = book.Author.Name,
-                    //PublicationYear = book.PublicationYear,
-                    //Price = book.Price,
-                    //StockQuantity = book.StockQuantity
+                    AuthorName = nomeAutor,
+                    PublicationYear = book.PublicationYear,
+                    Price = book.Price,
+                    StockQuantity = book.StockQuantity
                 });
             }
 
@@ -43,16 +44,17 @@ namespace LibraryFlow.Application.Services
             var book = await _bookRepository.GetById(id);
             if (book == null) return null;
 
+            string nomeAutor = book.Author?.Name ?? "Autor desconhecido";
             return new BookDTO
             {
                 Id = book.Id,
                 Title = book.Title,
-                //ISBN = book.ISBN,
+                ISBN = book.ISBN,
                 AuthorId = book.AuthorId,
-                AuthorName = book.Author.Name,
-                //PublicationYear = book.PublicationYear,
-                //Price = book.Price,
-                //StockQuantity = book.StockQuantity
+                AuthorName = nomeAutor,
+                PublicationYear = book.PublicationYear,
+                Price = book.Price,
+                StockQuantity = book.StockQuantity
             };
         }
 

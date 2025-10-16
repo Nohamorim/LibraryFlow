@@ -1,11 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { Book } from '../../models/book.model';
 import { BookService } from '../../services/book.service';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 @Component({
   selector: 'app-book-list',
+  standalone: true,
+  imports: [CommonModule, FormsModule, RouterModule, NgxPaginationModule],
   templateUrl: './book-list.component.html',
-  styleUrls: ['./book-list.component.scss']
+  styleUrls: ['./book-list.component.scss'],
 })
 export class BookListComponent implements OnInit {
   books: Book[] = [];
@@ -38,5 +44,9 @@ export class BookListComponent implements OnInit {
       book.authorName.toLowerCase().includes(this.searchTerm.toLowerCase()) ||
       book.isbn.includes(this.searchTerm)
     );
+  }
+
+  deleteBook(id: number): void {
+    console.log(`Delete book with id: ${id}`);
   }
 }

@@ -23,9 +23,12 @@ namespace LibraryFlow.Infrastructure.Repositories
 
         public async Task<Book> GetById(int id)
         {
-            return await _context.Books
-            .Include(b => b.Author)
-            .FirstOrDefaultAsync(b => b.Id == id);
+            var book = await _context.Books
+                .Include(b => b.Author)
+                .FirstOrDefaultAsync(b => b.Id == id);
+            if (book == null)
+                throw new Exception("Livro não encontrado");
+            return book;
         }
 
         public async Task Add(Book book)
