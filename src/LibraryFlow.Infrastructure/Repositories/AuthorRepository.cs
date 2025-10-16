@@ -23,10 +23,13 @@ namespace LibraryFlow.Infrastructure.Repositories
         }
 
         public async Task<Author> GetById(int id)
-        {   
-            return await _context.Authors
+        {
+            var author = await _context.Authors
             .Include(a => a.Books)
             .FirstOrDefaultAsync(a => a.Id == id);
+            if (author == null)
+                throw new Exception("Autor não encontrado");
+            return author;
         }
 
         public async Task Add(Author author)
@@ -44,7 +47,7 @@ namespace LibraryFlow.Infrastructure.Repositories
 
         public async Task Delete(int id)
         {
-            var authorToDelete = new Author { Id = id };
+            var authorToDelete = new Author { Id = id, Name = string.Empty };
             _context.Entry(authorToDelete).State = EntityState.Deleted;
             await _context.SaveChangesAsync();
         }

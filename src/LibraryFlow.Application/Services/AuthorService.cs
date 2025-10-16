@@ -28,7 +28,7 @@ namespace LibraryFlow.Application.Services
             }
             return authorDTOs;
         }
-        public async Task<AuthorDTO> GetById(int id)
+        public async Task<AuthorDTO?> GetById(int id)
         {
             var author = await _authorRepository.GetById(id);
             if (author == null) return null;
