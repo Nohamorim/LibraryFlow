@@ -24,8 +24,11 @@ namespace LibraryFlow.Infrastructure.Repositories
 
         public async Task<User> GetById(int id)
         {
-            return await _context.Users
-            .FirstOrDefaultAsync(u => u.Id == id);
+            var user = await _context.Users
+                .FirstOrDefaultAsync(u => u.Id == id);
+            if (user == null)
+                throw new Exception("Usuário não encontrado");
+            return user;
         }
 
         public async Task Add(User user)
