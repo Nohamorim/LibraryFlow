@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from "./users/shared/header/header.component";
-import { SidebarComponent } from './sidebar.component';
+import { HeaderComponent } from './shared/header/header.component';
+import { SidebarComponent } from './shared/sidebar/sidebar.component';
 
 @Component({
   selector: 'app-root',
@@ -11,5 +11,5 @@ import { SidebarComponent } from './sidebar.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'library-flow-frontend';
+  title = 'LibraryFlow';
 }

@@ -1,5 +1,5 @@
-@import '~bootstrap/scss/bootstrap';
-@import '~ngx-toastr/toastr-bs5-alert';
+@use 'bootstrap/scss/bootstrap' as *;
+@use 'ngx-toastr/toastr-bs5-alert';
 
 // Variáveis de cores
 $primary-color: #4169E1;
@@ -12,6 +12,8 @@ body {
   background-color: $light-gray;
   color: $dark-gray;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 // Header
