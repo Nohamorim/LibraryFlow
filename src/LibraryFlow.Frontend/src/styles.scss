@@ -1,11 +1,11 @@
-@use 'bootstrap/scss/bootstrap' as *;
-@use 'ngx-toastr/toastr-bs5-alert';
-
 // Variáveis de cores
 $primary-color: #4169E1;
 $secondary-color: #28a745;
 $light-gray: #f8f9fa;
 $dark-gray: #343a40;
+
+//Bibliotecas
+@use 'bootstrap/dist/css/bootstrap.min.css';
 
 // Estilos globais
 body {
