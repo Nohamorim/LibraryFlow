@@ -1,11 +1,12 @@
-import { mergeApplicationConfig, ApplicationConfig } from '@angular/core';
-import { provideServerRendering } from '@angular/platform-server';
-import { appConfig } from './app.config';
+// app.config.ts - Angular 20 pode ter pequenas mudanças
+import { ApplicationConfig } from '@angular/core';
+import { provideRouter } from '@angular/router';
+import { provideAnimations } from '@angular/platform-browser/animations';
+import { routes } from './app.routes';
 
-const serverConfig: ApplicationConfig = {
+export const appConfig: ApplicationConfig = {
   providers: [
-    provideServerRendering(),
+    provideRouter(routes),
+    provideAnimations()
   ]
 };
-
-export const config = mergeApplicationConfig(appConfig, serverConfig);

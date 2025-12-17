@@ -1,4 +1,4 @@
-/// <reference types="@angular/localize" />
+/// <reference types="@babel/core" />
 
 import { bootstrapApplication } from '@angular/platform-browser';
 import { appConfig } from './app/app.config';
